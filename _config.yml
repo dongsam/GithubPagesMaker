@@ -14,13 +14,18 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+github_id:   "dongsam"
+github_repo: "d3coin"
+
+title:       "d3coin"
+keywords:    "Distributed Data Driven Coin"
+description: "d3coin : Distributed Data Driven Coin"
+
+source_link: "https://github.com/dongsam/d3coin"
+
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+# google_analytics_key: UA-000000-1
 
 
 ### template colors, used site-wide via css ###
@@ -30,8 +35,11 @@ colors:
   blue:      '#49a7e9'
   green:     '#9bcf2f'
   purple:    '#c869bf'
-  orange:    '#fab125'
+  orange:    '#ED7950'
   turquoise: '#0fbfcf'
+  silver:    '#D0D0D0'
+  darkgreen: '#4F7C80'
+  cobalt:    '#3035A4'
 
 kramdown:
   auto_ids:  false
